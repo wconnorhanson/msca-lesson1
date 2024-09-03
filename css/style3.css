@@ -48,6 +48,16 @@ body {
     list-style-type: none;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: var(--sec);
+    transition: color .5s ease-in;
+}
+
+.nav-link:hover {
+    color: var(--prim);
+}
+
 .row {
     display: flex;
     justify-content: space-between;
