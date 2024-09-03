@@ -1,3 +1,5 @@
+/* building template design using flexbox */
+
 :root {
     --prim: #005a9c;
     --sec: darkgoldenrod;
@@ -94,6 +96,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#myName {
+    font-size: 48px;
+    font-family: var(--font1);
+    color: var(--prim);
 }
 
 #myName, #topNav, .form {
