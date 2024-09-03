@@ -1,0 +1,113 @@
+:root {
+    --prim: #005a9c;
+    --sec: darkgoldenrod;
+    --tert: #eaeae3;
+    --font1: "Montserrat", "serif";
+    --font2: "Quicksand", "system-ui";
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* class */
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon {
+    text-align: center;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 94%;
+    /* border: 1px solid darkgoldenrod; */
+}
+
+.form {
+    /* padding-top: 15px; */
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-label {
+    display: none;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.text {
+    padding: 0 15px;
+}
+
+/* id */
+
+#block1, #block2 {
+    padding: 0 15px;
+    width: 45%;
+    /* border: 1px solid green; */
+}
+
+#block5, #block6, #block7 {
+    width: 30%;
+    /* border: 1px solid dodgerblue; */
+}
+
+#blockText2, #figure1 {
+    width: 45%;
+    /* border: 1px solid orange; */
+}
+
+#figure2 {
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    padding: 8px 0;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myName, #topNav, .form {
+    margin: 0;
+    width: 30%;
+    /* border: 1px solid green; */
+}
+
+#row1 {
+    flex-direction: row-reverse;
+}
+
+#section3 .container {
+    display: flex;
+    justify-content: space-between;
+}
+

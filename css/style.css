@@ -1,0 +1,171 @@
+/*
+    Building template design using margin, padding, float
+*/
+
+:root {
+    --prim: #005a9c;
+    --sec: darkgoldenrod;
+    --tert: #eaeae3;
+    --font1: "Montserrat", "serif";
+    --font2: "Quicksand", "system-ui";
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.colophon {
+    font-family: var(--font1);
+    text-align: center;
+}
+
+.container {
+    width: 94%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+}
+
+.figcaption {
+    color: var(--sec);
+    font-family: var(--font1);
+    font-style: italic;
+}
+
+.form {
+    width: 30%;
+    margin-top: 10px;
+    float: left;
+    text-align: right;
+}
+
+
+.heading {
+    margin: 0;
+    color: var(--sec);
+    font-family: var(--font2);
+    text-shadow: 2px 2px 2px #333;
+}
+
+/* build a navbar
+ul {
+    padding-left:0;
+    list-style-type: none;
+
+li {
+    display: inline
+}
+*/
+
+.nav {
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline;
+    padding: 0 15px;
+    font-family: var(--font1);
+}
+
+.nav-link {
+    color: var(prim);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.nav-link:hover {
+    color: var(--sec)
+}
+
+.search-label {
+    display: none;
+}
+
+.text {
+    font-family: var(--font2);
+}
+
+#block1, #block2 {
+    width: 50%;
+    padding: 10px;
+    float: right;
+}
+
+#block4 .text {
+    padding: 0 15px;
+}
+
+#block5, #block6, #block7 {
+    /* border: 1px solid blue; */
+    padding: 10px 15px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+#blockText1, #blockText2 {
+    font-size: 24px;
+}
+
+#blockText3, #blockText4 {
+    width: 50%;
+    float: left;
+    padding: 10px 15px;
+}
+
+#blockText2, #figure1 {
+    width: 50%;
+    float: left;
+}
+
+#figure1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#figure2 {
+    text-align: center;
+}
+
+#figure2 img {
+    border-radius: 10px;
+}
+
+#footer {
+    padding-bottom: 60px;
+}
+
+#header {
+    padding: 15px 0;
+}
+
+#myName {
+    margin: 0;
+    width: 40%;
+    color: var(--prim);
+    font-family: var(--font1);
+    font-size: 42px;
+    float: left;
+}
+
+#section1, #section2, #section3 {
+    padding: 40px 0;
+}
+
+#topNav {
+    width: 30%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
